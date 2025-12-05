@@ -99,45 +99,7 @@ img {
     padding: 2em 0;
 }
 
-/* CONTACT DETAILS */
-.contact-details {
-    background: #f0f4f8;
-    padding: 20px 25px;
-    border-radius: 10px;
-    max-width: 600px;
-    margin: 2em auto;
-    line-height: 1.8;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.contact-details h2 {
-    text-align: center;
-    margin-bottom: 1em;
-    color: #222;
-}
-
-.contact-details p {
-    margin-bottom: 0.8em;
-}
-
-.contact-details a {
-    color: #2980b9;
-    text-decoration: none;
-}
-
-.contact-details a:hover {
-    text-decoration: underline;
-}
-
-/* FOOTER */
-#copyright {
-    text-align: center;
-    padding: 2em 0;
-    margin-top: 2em;
-    background: #202020;
-    color: #aaa;
-    font-size: 0.9em;
-}
+class="contact-details"
 
 #copyright a {
     color: #fff;
