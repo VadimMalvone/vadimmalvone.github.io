@@ -272,25 +272,24 @@ ul.contact li a:before {
     text-decoration: underline;
 }
 
-* CLEAN COURSE LIST STYLE */
+/* CLEAN TEACHING LIST – stronger version */
 
 .courses-container {
     max-width: 750px;
-    margin: 2.5em auto;
-    padding: 0 5px;
+    margin: 3em auto;
+    padding: 0 10px;
 }
 
 .courses-title {
-    text-align: left;
-    font-size: 1.7em;
-    margin-bottom: 1.2em;
-    font-weight: 400;
-    color: #222;
+    font-size: 1.9em;
+    margin-bottom: 1.5em;
+    font-weight: 400 !important;
+    color: #1a1a1a;
 }
 
 .course-box {
-    padding: 14px 2px;
-    border-bottom: 1px solid #ddd;
+    padding: 18px 0;
+    border-bottom: 1px solid #e3e3e3;
 }
 
 .course-box:last-child {
@@ -298,25 +297,25 @@ ul.contact li a:before {
 }
 
 .course-box h3 {
-    margin: 0;
-    font-size: 1.1em;
-    font-weight: 400; /* remove bold */
-    color: #2a2a2a;
+    margin: 0 0 6px 0;
+    font-size: 1.15em;
+    font-weight: 300 !important;    /* ← elimina davvero il grassetto */
+    color: #333;
 }
 
 .course-years {
-    display: block;
+    display: inline-block;
     margin-top: 4px;
     font-size: 0.9em;
-    color: #666;
-    font-weight: 300;
-    font-style: normal;
+    color: #777;
+    font-weight: 300 !important;     /* ← niente grassetto */
 }
 
-/* Extra spacing between groups, if needed */
+/* Add more spacing visually */
 .course-box + .course-box {
-    margin-top: 10px;
+    margin-top: 15px;
 }
+
 
 
 
