@@ -1,4 +1,4 @@
-/* RESET & BASE */
+il mio attuale css è questo: "/* RESET & BASE */
 * {
     margin: 0;
     padding: 0;
@@ -99,29 +99,6 @@ img {
     padding: 2em 0;
 }
 
-class="contact-details"
-
-#copyright a {
-    color: #fff;
-}
-
-/* RESPONSIVE */
-@media(max-width: 900px) {
-    #header, #main {
-        padding: 2em 1em;
-    }
-
-    #menu ul {
-        flex-direction: column;
-        gap: 0.5em;
-    }
-}
-
-/* MAIN CONTENT */
-#main {
-    padding: 2em 0;
-}
-
 /* CONTACT DETAILS */
 .contact-details {
     background: #f0f4f8;
@@ -161,5 +138,22 @@ class="contact-details"
     color: #aaa;
     font-size: 0.9em;
 }
+
+#copyright a {
+    color: #fff;
+}
+
+/* RESPONSIVE */
+@media(max-width: 900px) {
+    #header, #main {
+        padding: 2em 1em;
+    }
+
+    #menu ul {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+}" La parte per il contatto, dove la devo mettere?
+
 
 
