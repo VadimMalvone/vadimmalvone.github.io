@@ -272,6 +272,51 @@ ul.contact li a:before {
     text-decoration: underline;
 }
 
+* CLEAN COURSE LIST STYLE */
+
+.courses-container {
+    max-width: 750px;
+    margin: 2.5em auto;
+    padding: 0 5px;
+}
+
+.courses-title {
+    text-align: left;
+    font-size: 1.7em;
+    margin-bottom: 1.2em;
+    font-weight: 400;
+    color: #222;
+}
+
+.course-box {
+    padding: 14px 2px;
+    border-bottom: 1px solid #ddd;
+}
+
+.course-box:last-child {
+    border-bottom: none;
+}
+
+.course-box h3 {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: 400; /* remove bold */
+    color: #2a2a2a;
+}
+
+.course-years {
+    display: block;
+    margin-top: 4px;
+    font-size: 0.9em;
+    color: #666;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Extra spacing between groups, if needed */
+.course-box + .course-box {
+    margin-top: 10px;
+}
 
 
 
