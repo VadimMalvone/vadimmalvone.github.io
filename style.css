@@ -1,0 +1,238 @@
+/*--------------------------------------------------
+  General Styles
+--------------------------------------------------*/
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12pt;
+    font-weight: 300;
+    color: #444;
+    background: #f5f5f5;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: #333;
+}
+
+p, ol, ul {
+    margin-top: 0;
+    line-height: 1.8;
+}
+
+ol, ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*--------------------------------------------------
+  Container
+--------------------------------------------------*/
+.container {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/*--------------------------------------------------
+  Images
+--------------------------------------------------*/
+.image img, .image-full {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 2em 0;
+}
+
+#logo img {
+    width: 150px; /* immagine profilo più piccola */
+    height: auto;
+    margin-bottom: 1em;
+}
+
+/*--------------------------------------------------
+  Header and Logo
+--------------------------------------------------*/
+#header {
+    float: left;
+    width: 300px;
+    padding: 3em 0;
+}
+
+#logo {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#logo h1 {
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+#logo a {
+    color: #333;
+}
+
+/*--------------------------------------------------
+  Menu
+--------------------------------------------------*/
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    border-top: 1px solid rgba(0,0,0,.08);
+}
+
+#menu li a, #menu li span {
+    display: block;
+    padding: 1em 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(0,0,0,0.7);
+}
+
+#menu li:hover a, #menu .current_page_item a {
+    background: #2980b9;
+    color: #fff;
+}
+
+/*--------------------------------------------------
+  Banner
+--------------------------------------------------*/
+#banner img {
+    width: 100%;
+    max-height: 400px; /* banner più piccolo */
+    object-fit: cover;
+    margin-bottom: 2em;
+}
+
+/*--------------------------------------------------
+  Page and Main
+--------------------------------------------------*/
+#page {
+    background: #f5f5f5;
+}
+
+#main {
+    float: right;
+    width: 800px;
+    padding: 3em 50px 5em 50px;
+    background: #fff;
+    border-top: 6px solid #2980b9;
+    text-align: left;
+}
+
+/*--------------------------------------------------
+  Lists
+--------------------------------------------------*/
+ul.style1 li {
+    padding: 1.6em 0;
+    margin: 0 0 2.5em 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+ul.style1 li:first-child {
+    border-top: none;
+}
+
+ul.style1 a {
+    display: block;
+    color: #2D2D2D;
+}
+
+ul.style1 a:hover {
+    text-decoration: underline;
+}
+
+/*--------------------------------------------------
+  Buttons
+--------------------------------------------------*/
+.button {
+    display: inline-block;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.9em;
+    color: #fff;
+    background: #2980b9;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #1c5980;
+}
+
+/*--------------------------------------------------
+  Footer
+--------------------------------------------------*/
+#copyright {
+    overflow: hidden;
+    padding: 3em 0;
+    border-top: 1px solid rgba(0,0,0,0.08);
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+}
+
+#copyright a {
+    color: #2980b9;
+}
+
+/*--------------------------------------------------
+  Social Icons
+--------------------------------------------------*/
+ul.contact li a:before {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 8px;
+    background: #2980b9;
+    color: #fff;
+    text-align: center;
+}
+
+/*--------------------------------------------------
+  Adjustments
+--------------------------------------------------*/
+#welcome {
+    margin-bottom: 2em;
+}
+
+#welcome h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+/*--------------------------------------------------
+  Media Queries
+--------------------------------------------------*/
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 95%;
+    }
+    #header, #main {
+        float: none;
+        width: 100%;
+    }
+    #banner img {
+        max-height: 250px;
+    }
+}
